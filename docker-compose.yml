@@ -2,7 +2,7 @@ version: "3"
 
 services:
   mikrotik-router:
-    image: eworm/debian-routeros
+    image: evilfreelancer/docker-routeros:6.48.3
     container_name: mikrotik-router
     privileged: true
     environment:
